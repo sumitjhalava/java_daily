@@ -12,7 +12,10 @@ class Run
         b1.color="pink";
         b1.price=234.4;
 
-        c1.display();
-        b1.display()
+        // c1.display();
+        // b1.display();
+
+        Employee e1 = new Employee("India","MP","Indore",101,"TCS","Devloper");
+        e1.display();
     }
 }
